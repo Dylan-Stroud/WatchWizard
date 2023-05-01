@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: rgba(28, 38, 31, 0.8);
+    box-shadow: 0px 10px 15px  rgba(28, 38, 31, 0.8); ;
+}
+.nav-logo{
+    color: #75a183;
+    float: left;
+    padding: 25px 20px
+}
+.nav-items{
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+.nav-items li {
+    display: inline-block;
+    margin-left: 4%;
+    padding-bottom: 25px;
+    
+}
+.nav-items li a{
+    text-decoration: none;
+    color: #fff;
+    width: 80px;
+    display: block;
+    padding: 30px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
