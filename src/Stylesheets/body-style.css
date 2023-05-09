@@ -1,0 +1,101 @@
+.app{
+    
+    height: 100vh;
+    width: 100vw;
+}
+div{
+    color: white;
+}
+
+.Body{
+    
+    background-position: center 10%;
+    
+    background-size: 60vw;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:100vw;
+
+    
+}
+.ImgBox{
+    box-shadow: inset -10px -10px  1000px 600px black;
+   
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: url('../images/suzumelandscape.jpg');
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.FrontPageText{
+    position: absolute;
+    color: white;
+    background: none;
+    top: 70%;
+    left: 40%;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.tab{
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.cards{
+    display: flex;
+    left: 50%;
+}
+
+.oranges{
+    color: white;
+    }
+
+    button {   
+        background-color: #75a183;   
+        width: 100%;  
+         color: black;
+         font-size: 15px;   
+         padding: 15px;   
+         margin: 10px 0px;   
+         border: none;   
+         cursor: pointer;   
+          }   
+  form {   
+         border: 3px solid #f1f1f1;  
+         display: flex;
+         justify-content: center;
+         align-items: center; 
+     }   
+  input[type=text], input[type=password] {   
+         width: 100%;   
+         margin: 8px 0;  
+         padding: 12px 20px;   
+         display: inline-block;   
+         color: white;
+         border: 2px solid green;   
+         box-sizing: border-box;   
+     }  
+  button:hover {   
+         opacity: 0.7;   
+     }   
+   .cancelbtn {   
+         width: auto;   
+         padding: 10px 18px;  
+         margin: 10px 5px;  
+     }   
+         
+      
+  .container {   
+         padding: 25px;   
+         background-color: black;  
+     }   
+

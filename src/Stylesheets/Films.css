@@ -1,0 +1,41 @@
+.CardBox{
+
+    position: relative;
+    left: 20%;
+    background: black;
+    list-style: none;
+    padding-top: 2em;
+    margin: 0;
+
+    display: flex;
+    gap:4vmin;
+    height: 500px;
+    width: 100vw;
+    
+}
+
+.CardBox li {
+    
+    float: left;
+    margin-left: 4%;
+    height:255px;
+    width: 150px;
+    
+}
+
+
+.filmtag{
+   
+    background-image: url("../images/portrait\ placeholder.jpg");
+
+    
+    display: block;
+    
+   
+
+}
+.orange{
+    color: white;
+    display: flex;
+    padding-top: 50px;
+}

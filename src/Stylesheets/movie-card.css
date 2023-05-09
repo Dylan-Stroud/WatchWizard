@@ -1,0 +1,50 @@
+*{
+    background:black ;
+}
+
+.CardBox{
+
+    position: relative;
+    left: 20%;
+    background: black;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    gap:4vmin;
+    height: 500px;
+    width: 100vw;
+    
+}
+
+.CardBox li {
+    
+    float: left;
+    margin-left: 4%;
+    height:255px;
+    width: 150px;
+    
+}
+.MovieCard{
+   
+    background-image: url("../images/portrait\ placeholder.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+.CardBox li:hover{
+    box-shadow:  0px 0px  20px 15px green;
+}
+.MovieCard:hover{
+    box-shadow:  0px 0px  20px 15px green;
+
+
+}
+
+
